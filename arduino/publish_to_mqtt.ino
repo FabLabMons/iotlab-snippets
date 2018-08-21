@@ -10,6 +10,8 @@ BridgeClient bridgeClient;
 PubSubClient pubSubClient;
 
 void setup() {
+    Bridge.begin();
+    
     pubSubClient.setClient(bridgeClient);
     pubSubClient.setServer(broker, port);
 }
