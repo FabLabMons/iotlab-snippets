@@ -1,4 +1,4 @@
-/* Reads temperature and humidity of a DHT11 sensor on pin 2 and displays it on the console.
+/* Reads temperature and humidity from a DHT11 sensor on pin 2 and displays them on the console.
  *
  * Uses the SimpleDHT library (https://github.com/winlinvip/SimpleDHT).
  */
